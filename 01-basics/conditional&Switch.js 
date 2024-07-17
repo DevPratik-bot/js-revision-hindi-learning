@@ -1,0 +1,45 @@
+  /////////////****************conditional statemanet***********/////   
+     
+     
+      var time =prompt("hey whats the time!")
+ if(time>5 && time<12){
+     alert("good morning")
+ }else if(time>12 && time<17){
+     alert("good afternoon")
+ } else if(time>17 && time<21){
+     alert("good evening")
+ }
+ else{
+     alert("good night")
+ }
+
+////////////*************Switch case**********////////////
+        var fruittype =prompt("kaunsa fal chaiye")
+        switch (fruittype) {
+            case 'narangi':
+                console.log('narangi hai 60 rupaye kilo')
+                break;
+                case 'aam':
+                console.log('aam hai 300 rupaye kilo')
+                break;
+                case 'sabe':
+                console.log('sabe hai 160 rupaye kilo')
+                break;
+                case 'kele':
+                console.log('kele hai 50 rupaye kilo')
+                break;
+                case ' amrudh':
+                console.log('amrudh hai 260 rupaye kilo')
+                break;
+                case 'papita':
+                console.log('papita hai 100 rupaye kilo')
+                break;
+                case 'narangi':
+                console.log('narangi hai 60 rupaye kilo')
+                break;
+                default:
+                    console.log(`$(fruittype) ajj khatam hogay kal ayega`)
+                
+        }
+        console.log("or kuch chaiye")
+    </script>
